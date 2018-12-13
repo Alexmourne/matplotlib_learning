@@ -11,7 +11,8 @@
     <OutputPath>.</OutputPath>
     <Name>matplotlib_learning</Name>
     <RootNamespace>matplotlib_learning</RootNamespace>
-    <InterpreterId>MSBuild|env_matplotlib_learning|$(MSBuildProjectFullPath)</InterpreterId>
+    <InterpreterId>MSBuild|env_matplotlib|$(MSBuildProjectFullPath)</InterpreterId>
+    <SuppressEnvironmentCreationPrompt>True</SuppressEnvironmentCreationPrompt>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -25,10 +26,13 @@
     <Compile Include="matplotlib_learning.py" />
   </ItemGroup>
   <ItemGroup>
-    <Interpreter Include="env_matplotlib_learning\">
-      <Id>env_matplotlib_learning</Id>
-      <Version>3.6</Version>
-      <Description>env_matplotlib_learning (Python 3.6 (32-bit))</Description>
+    <Content Include="requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env_matplotlib\">
+      <Id>env_matplotlib</Id>
+      <Version>3.7</Version>
+      <Description>env_matplotlib (Python 3.7 (32-bit))</Description>
       <InterpreterPath>Scripts\python.exe</InterpreterPath>
       <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
