@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>65d7920d-dd42-4b1a-9bd7-0710c392482d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>matplotlib_learning.py</StartupFile>
+    <StartupFile>rw_visual.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="matplotlib_learning.py" />
+    <Compile Include="mpl_squares.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="random_walk.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rw_visual.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scatter_squares.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
