@@ -31,6 +31,7 @@ while True:
     plt.axes().get_xaxis().set_visible(False)
     plt.axes().get_yaxis().set_visible(False)
 
+    plt.savefig(r'images\rw_visual.png', bbox_inches='tight')
     plt.show()
     #ss.scatter_squares(rw.x_values, rw.y_values, s=15)
 

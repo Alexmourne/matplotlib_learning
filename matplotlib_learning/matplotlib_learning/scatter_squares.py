@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 
-def scatter_squares(x_values, y_values, s):
+def scatter_squares(x_values=0, y_values=0, s=40):
     
     if x_values == 0 and y_values == 0:
         #x_values = [1, 2, 3, 4, 5]
@@ -32,6 +32,8 @@ def scatter_squares(x_values, y_values, s):
     #
     plt.axis([0, 1100, 0, 1100000])
     
-    plt.savefig('images\squares_plot.png', bbox_inches='tight')
+    plt.savefig(r'images\scatter_squares.png', bbox_inches='tight')
     plt.show()
 
+
+scatter_squares()

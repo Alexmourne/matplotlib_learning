@@ -25,12 +25,12 @@ for value in range(2, max_result+1):
 hist = pygal.Bar()
 
 hist.title = "Results of rolling a D6 and a D10 50000 times."
-hist.x_labels = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', 
+hist.x_labels = ['2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', 
     '13', '14', '15', '16']
 hist._x_title = "Result"
 hist._y_title = "Frequency of Result"
 
 hist.add('D6 + D10', frequencies)
-hist.render_to_file(r'images\die_visual.svg')
+hist.render_to_file(r'images\different_dice.svg')
 
 
