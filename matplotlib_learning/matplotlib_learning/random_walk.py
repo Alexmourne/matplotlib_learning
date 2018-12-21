@@ -12,13 +12,13 @@ class RandomWalk():
         self.y_values = [0]
 
 
-    def get_step(self, direction_list=[1, -1], distance_list=[0, 1, 2, 3, 4]):
+    def get_step(self, direction=[1, -1], distance=[0, 1, 2, 3, 4]):
         """"""
 
         #
-        direction = choice(direction_list)
-        distance = choice(distance_list)
-        step = direction * distance
+        self.direction = choice(direction)
+        self.distance = choice(distance)
+        step = self.direction * self.distance
         return step
 
 

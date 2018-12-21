@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>65d7920d-dd42-4b1a-9bd7-0710c392482d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>rw_visual.py</StartupFile>
+    <StartupFile>dice_visual.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,18 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="dice_visual.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="die.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="die_visual.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="different_dice.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="matplotlib_learning.py" />
     <Compile Include="mpl_squares.py">
       <SubType>Code</SubType>
