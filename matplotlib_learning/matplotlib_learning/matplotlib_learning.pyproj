@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>65d7920d-dd42-4b1a-9bd7-0710c392482d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>scatter_squares.py</StartupFile>
+    <StartupFile>btc_close_2017.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="btc_close_2017.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="btc_close_2017_request.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="btc_close_2017_urllib.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="dice_visual.py">
       <SubType>Code</SubType>
     </Compile>
@@ -44,6 +53,9 @@
     <Compile Include="different_dice_wListComprehension.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="highs_lows.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="matplotlib_learning.py" />
     <Compile Include="mpl_squares.py">
       <SubType>Code</SubType>
@@ -59,7 +71,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="btc_close_2017_request.json" />
+    <Content Include="btc_close_2017_urllib.json" />
+    <Content Include="death_valley_2014.csv" />
     <Content Include="requirements.txt" />
+    <Content Include="sitka_weather_07-2014.csv" />
+    <Content Include="sitka_weather_2014.csv" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env_matplotlib\">
