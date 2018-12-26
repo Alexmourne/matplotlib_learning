@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>65d7920d-dd42-4b1a-9bd7-0710c392482d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>btc_close_2017.py</StartupFile>
+    <StartupFile>python_repos.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="bar_descriptions.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="btc_close_2017.py">
       <SubType>Code</SubType>
     </Compile>
@@ -58,6 +61,9 @@
     </Compile>
     <Compile Include="matplotlib_learning.py" />
     <Compile Include="mpl_squares.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="python_repos.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="random_walk.py">
