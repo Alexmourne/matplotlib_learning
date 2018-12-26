@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>65d7920d-dd42-4b1a-9bd7-0710c392482d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>python_repos.py</StartupFile>
+    <StartupFile>hn_submissions.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -57,6 +57,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="highs_lows.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hn_submissions.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="matplotlib_learning.py" />
