@@ -50,6 +50,7 @@ for repo_dict in repo_dicts:
     names.append(name)
     stars.append(repo_dict['stargazers_count'])
 
+    # Check if it's none object
     description = repo_dict['description']
     if not description:
         description = "Opps, freaking "+name+" had nothing to describe themself!"
